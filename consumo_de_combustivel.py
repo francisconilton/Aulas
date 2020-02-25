@@ -10,9 +10,8 @@ comb = randint(10, 25)
 km = randint(200, 400)
 
 # calcula e mostra o MPG do carro assumindo que o fabricante do carro superestimou os valores.
-
 print("O carro pode viajar " + str(km // comb) + " km por litro.")
 
 # mostra o numero de quilometros que o carro pode viajar com um tanque cheio.
-
 print("O tanque do carro pode conter " + str(comb) + " litros.")
+
